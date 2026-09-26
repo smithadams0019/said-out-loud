@@ -1,0 +1,60 @@
+[38;5;67m┌───────────────────────────────────────────────────────────────────────────────────────────────────[0m
+[38;5;67m│[0m [1mSAID OUT LOUD[0m
+[38;5;67m│[0m [38;5;242mReview queue. Five categories, one class, your call on each.[0m
+[38;5;67m│[0m
+[38;5;67m│[0m   [38;5;242mReplaying the mocked class with Bedrock off...[0m
+[38;5;67m│[0m
+[38;5;67m├─ [1mCONSENT RECORD, WHAT THE ROOM WAS TOLD[0m[38;5;67m ──────────────────────────────────────────────────────────[0m
+[38;5;67m│[0m   “This session of CHEM-201 is running an announcement capture tool under an approved auxiliary[0m
+[38;5;67m│[0m   aid accommodation. It captures announcements only: deadline changes, room changes, exam[0m
+[38;5;67m│[0m   signals, instructions to contact or bring something, and answers given aloud to another[0m
+[38;5;67m│[0m   student's question. It does not record, transcribe or summarise the teaching. Nothing said by[0m
+[38;5;67m│[0m   anyone other than the instructor is kept.”[0m
+[38;5;67m│[0m
+[38;5;67m├─ [1m9 CAPTURED, NONE OF IT SENT ANYWHERE YET[0m[38;5;67m ────────────────────────────────────────────────────────[0m
+[38;5;67m│[0m   [38;5;242my[0m yes, this was announced   [38;5;242mn[0m no, it was not   [38;5;242ms[0m skip   [38;5;242mq[0m leave the rest pending
+[38;5;67m│[0m
+[38;5;67m│[0m [38;5;67m№ 01[0m of 9  deadline_change[0m  [38;5;140mawaiting review[0m
+[38;5;67m│[0m      “That assignment I mentioned has not moved, it is still where the syllabus says.”[0m
+[38;5;67m│[0m      [38;5;242mdecided by the keyword rules (bedrock_disabled)[0m[38;5;242m, changes_a_previously_stated_fact[0m
+│      [38;5;140my/n/s/q >[0m 
+[38;5;67m│[0m      [38;5;108mconfirmed[0m[38;5;242m, Bee todo todo_1[0m
+[38;5;67m│[0m
+[38;5;67m│[0m [38;5;67m№ 02[0m of 9  relayed_answer[0m  [38;5;140mawaiting review[0m
+[38;5;67m│[0m      “Good question, so the answer to that one is it's the Thursday after, the 14th, not next[0m
+[38;5;67m│[0m      week.”[0m
+[38;5;67m│[0m      [38;5;242mdecided by the keyword rules (bedrock_disabled)[0m[38;5;242m, answers_a_question_asked_from_the_floor[0m
+│      [38;5;140my/n/s/q >[0m 
+[38;5;67m│[0m      [38;5;131mrejected[0m[38;5;242m, and kept as a correction for CHEM-201[0m
+[38;5;67m│[0m
+[38;5;67m│[0m [38;5;67m№ 03[0m of 9  deadline_change[0m  [38;5;140mawaiting review[0m
+[38;5;67m│[0m      “Quick heads up, the problem set essay is now due Monday, not Friday, since the printer in[0m
+[38;5;67m│[0m      the lab is down.”[0m
+[38;5;67m│[0m      [38;5;242mdecided by the keyword rules (bedrock_disabled)[0m[38;5;242m, changes_a_previously_stated_fact[0m
+│      [38;5;140my/n/s/q >[0m 
+[38;5;67m│[0m      [38;5;108mconfirmed[0m[38;5;242m, Bee todo todo_2[0m
+[38;5;67m│[0m
+[38;5;67m│[0m [38;5;67m№ 04[0m of 9  relayed_answer[0m  [38;5;140mawaiting review[0m
+[38;5;67m│[0m      “To answer this question properly you need to integrate the rate law first.”[0m
+[38;5;67m│[0m      [38;5;242mdecided by the keyword rules (bedrock_disabled)[0m[38;5;242m, answers_a_question_asked_from_the_floor[0m
+│      [38;5;140my/n/s/q >[0m 
+[38;5;67m│[0m      [38;5;108mconfirmed[0m[38;5;242m, Bee todo todo_3[0m
+[38;5;67m│[0m
+[38;5;67m│[0m [38;5;67m№ 05[0m of 9  exam_signal[0m  [38;5;140mawaiting review[0m
+[38;5;67m│[0m      “This will be on the exam, so make sure you understand the difference between zero order and[0m
+[38;5;67m│[0m      first order kinetics.”[0m
+[38;5;67m│[0m      [38;5;242mdecided by the keyword rules (bedrock_disabled)[0m[38;5;242m, flags_material_as_assessed[0m
+│      [38;5;140my/n/s/q >[0m 
+[38;5;67m├─ [1mDONE[0m[38;5;67m ────────────────────────────────────────────────────────────────────────────────────────────[0m
+[38;5;67m│[0m   [38;5;108m3 confirmed[0m, [38;5;131m1 rejected[0m, 5 still pending.
+[38;5;67m│[0m   [38;5;242m0 of these were decided by Bedrock, 9 by the rules.[0m
+[38;5;67m│[0m   [38;5;108mtodo_1[0m Deadline changed: "That assignment I mentioned has not moved, it is still where the
+[38;5;67m│[0m     syllabus says."
+[38;5;67m│[0m   [38;5;108mtodo_2[0m Deadline changed: "Quick heads up, the problem set essay is now due Monday, not Friday,
+[38;5;67m│[0m     since the printer in the lab is
+[38;5;67m│[0m   [38;5;108mtodo_3[0m Answer given in class: "To answer this question properly you need to integrate the rate
+[38;5;67m│[0m     law first."
+[38;5;67m│[0m
+[38;5;67m│[0m   [38;5;108mconsent chain verified[0m, 15 entries.
+[38;5;67m│[0m [38;5;242mNo audio was stored. No transcript exists. Nothing was sent without a yes.[0m
+[38;5;67m└───────────────────────────────────────────────────────────────────────────────────────────────────[0m

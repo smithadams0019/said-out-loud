@@ -1,0 +1,142 @@
+{
+  "_comment": "MOCKED transcript for CHEM 201, shaped like Bee's new-utterance stream events. Timestamps are ms offsets from session start, applied at load time. Speakers are role labels only, never identity (no voice ID on Bee/Alexa+). The `label` field is a hand-written ground truth used only to score the two classifiers against each other in the demo; nothing in the pipeline reads it.",
+  "courseId": "CHEM-201",
+  "room": "Fisher Hall 118",
+  "utterances": [
+    {
+      "offsetMs": 5000,
+      "speaker": "instructor",
+      "text": "Okay everyone, today we will cover reaction kinetics and then start on equilibrium.",
+      "label": "none",
+      "note": "Says what the class is about. On the syllabus. A student writes this themselves."
+    },
+    {
+      "offsetMs": 42000,
+      "speaker": "instructor",
+      "text": "The rate constant depends on temperature according to the Arrhenius equation, which relates k to the activation energy.",
+      "label": "none",
+      "note": "Course content."
+    },
+    {
+      "offsetMs": 71000,
+      "speaker": "instructor",
+      "text": "That assignment I mentioned has not moved, it is still where the syllabus says.",
+      "label": "none",
+      "note": "Hard negative, verified: the rules classifier calls this a deadline_change because 'assignment' and 'moved' sit inside its window. Nothing changed, so it is not an announcement."
+    },
+    {
+      "offsetMs": 96000,
+      "speaker": "student_a",
+      "text": "Wait, is the exam next Thursday or the Thursday after?"
+    },
+    {
+      "offsetMs": 98000,
+      "speaker": "instructor",
+      "text": "Good question, so the answer to that one is it's the Thursday after, the 14th, not next week.",
+      "label": "relayed_answer"
+    },
+    {
+      "offsetMs": 140000,
+      "speaker": "instructor",
+      "text": "Something I should have said at the start: I am not holding office hours on Thursday, come Wednesday instead.",
+      "label": "contact_instruction",
+      "note": "Hard positive. No keyword the rules look for. Purely procedural, and nowhere in anyone's notes."
+    },
+    {
+      "offsetMs": 210000,
+      "speaker": "instructor",
+      "text": "Quick heads up, the problem set essay is now due Monday, not Friday, since the printer in the lab is down.",
+      "label": "deadline_change"
+    },
+    {
+      "offsetMs": 268000,
+      "speaker": "instructor",
+      "text": "To answer this question properly you need to integrate the rate law first.",
+      "label": "none",
+      "note": "Hard negative, verified: the rules classifier calls this a relayed_answer on the phrase 'to answer ... question'. It is course content."
+    },
+    {
+      "offsetMs": 340000,
+      "speaker": "instructor",
+      "text": "This will be on the exam, so make sure you understand the difference between zero order and first order kinetics.",
+      "label": "exam_signal"
+    },
+    {
+      "offsetMs": 402000,
+      "speaker": "instructor",
+      "text": "Forget what the syllabus says about the second midterm being closed book, it is open book now.",
+      "label": "exam_signal",
+      "note": "Hard positive. Contradicts a written document, which is exactly the case where a student's own notes will be wrong."
+    },
+    {
+      "offsetMs": 512000,
+      "speaker": "instructor",
+      "text": "Integrating the rate law over time gives us the concentration as a function of time for a first order reaction.",
+      "label": "none"
+    },
+    {
+      "offsetMs": 545000,
+      "speaker": "instructor",
+      "text": "Any questions on that? No? Good, let's keep going.",
+      "label": "none",
+      "note": "Managing the room. No information at all."
+    },
+    {
+      "offsetMs": 600000,
+      "speaker": "student_b",
+      "text": "did you get the notes from last class, mine are a mess",
+      "note": "Side conversation between two students, neither an expected speaker. Dropped by rule 3 before any classifier sees it."
+    },
+    {
+      "offsetMs": 640000,
+      "speaker": "student_c",
+      "text": "no i missed it, was there anything important",
+      "note": "Also dropped by rule 3."
+    },
+    {
+      "offsetMs": 688000,
+      "speaker": "instructor",
+      "text": "The lab report template on the site is the old one, I will replace it tonight, so do not start from it yet.",
+      "label": "contact_instruction",
+      "note": "Hard positive. Nobody writes this down because it sounds like housekeeping until it costs you a week."
+    },
+    {
+      "offsetMs": 715000,
+      "speaker": "instructor",
+      "text": "One more thing before you go, we're moving to room 214 for the rest of the week because of a scheduling conflict here.",
+      "label": "room_change"
+    },
+    {
+      "offsetMs": 752000,
+      "speaker": "instructor",
+      "text": "We are moving to room temperature for the next part of the demonstration, so the rate constant drops.",
+      "label": "none",
+      "note": "Hard negative, verified: the rules classifier calls this a room_change on 'moving ... room'. The class is not moving anywhere."
+    },
+    {
+      "offsetMs": 780000,
+      "speaker": "instructor",
+      "text": "If you want feedback on your lab report before it's due, email me by Friday and I'll get to it over the weekend.",
+      "label": "contact_instruction"
+    },
+    {
+      "offsetMs": 812000,
+      "speaker": "instructor",
+      "text": "Students email me by the dozen about this, and the answer is always in chapter four.",
+      "label": "none",
+      "note": "Hard negative, verified: the rules classifier calls this a contact_instruction on 'email ... me ... by'. It instructs nobody to do anything."
+    },
+    {
+      "offsetMs": 850000,
+      "speaker": "instructor",
+      "text": "Alright, that's it for today, see you Wednesday.",
+      "label": "none"
+    },
+    {
+      "offsetMs": 950000,
+      "speaker": "instructor",
+      "text": "This last comment is after the session officially ended and should be dropped by rule 1 regardless of its content, this will be on the exam too.",
+      "note": "Outside the session window. Dropped by rule 1 before any classifier sees it."
+    }
+  ]
+}

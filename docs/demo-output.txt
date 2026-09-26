@@ -1,0 +1,219 @@
+[38;5;67m┌───────────────────────────────────────────────────────────────────────────────────────────────────[0m
+[38;5;67m│[0m [1mSAID OUT LOUD[0m
+[38;5;67m│[0m [38;5;242mBee mocked at the /v1 boundary. Bedrock switched off: the keyword rules are running.[0m
+[38;5;67m│[0m
+[38;5;67m├─ [1mCONSENT RECORD, ENTRY 0, PRINTED FIRST ON PURPOSE[0m[38;5;67m ───────────────────────────────────────────────[0m
+[38;5;67m│[0m   policy     CART or interpreter services, deaf and hard of hearing[0m
+[38;5;67m│[0m   basis      [38;5;242m28 CFR 35.160(b)(2), and the CART provider's own classroom agreement[0m
+[38;5;67m│[0m   reference  [38;5;242mpolicy://institution/deaf-services/cart-classroom-agreement[0m
+[38;5;67m│[0m   announced  2026-09-22T13:00:00.000Z
+[38;5;67m│[0m   speakers   instructor, interpreter
+[38;5;67m│[0m   retention  180 days
+[38;5;67m│[0m   hash       [38;5;242m3e5a43a5198ae68a1a78d405bc65054804acee3101311b2e3193fb0292831868[0m
+[38;5;67m│[0m
+[38;5;67m│[0m   “CHEM-201 has CART or interpreter services in the room today, and an announcement capture tool[0m
+[38;5;67m│[0m   running alongside them under the same classroom agreement. It captures announcements only:[0m
+[38;5;67m│[0m   deadline changes, room changes, exam signals, instructions to contact or bring something, and[0m
+[38;5;67m│[0m   answers given aloud to another student's question. It does not record, transcribe or summarise[0m
+[38;5;67m│[0m   the teaching. It exists because announcements are what a caption feed most often loses.”[0m
+[38;5;67m│[0m
+[38;5;67m├─ [1mTHE CLASS, DECIDED UTTERANCE BY UTTERANCE[0m[38;5;67m ───────────────────────────────────────────────────────[0m
+[38;5;67m│[0m      [38;5;131m·[0m [38;5;242mnot an announcement, no_actionable_change[0m
+[38;5;67m│[0m      [38;5;131m·[0m [38;5;242mnot an announcement, no_actionable_change[0m
+[38;5;67m│[0m [38;5;67m№ 01[0m  deadline_change   [38;5;140mawaiting review[0m
+[38;5;67m│[0m      “That assignment I mentioned has not moved, it is still where the syllabus says.”[0m
+[38;5;67m│[0m      [38;5;242mdecided by the keyword rules (bedrock_disabled)[0m[38;5;242m, changes_a_previously_stated_fact[0m
+[38;5;67m│[0m      [38;5;131m·[0m [38;5;242mnot an expected speaker, rule 3, no side conversations[0m
+[38;5;67m│[0m [38;5;67m№ 02[0m  relayed_answer   [38;5;140mawaiting review[0m
+[38;5;67m│[0m      “Good question, so the answer to that one is it's the Thursday after, the 14th, not next[0m
+[38;5;67m│[0m      week.”[0m
+[38;5;67m│[0m      [38;5;242mdecided by the keyword rules (bedrock_disabled)[0m[38;5;242m, answers_a_question_asked_from_the_floor[0m
+[38;5;67m│[0m      [38;5;131m·[0m [38;5;242mnot an announcement, no_actionable_change[0m
+[38;5;67m│[0m [38;5;67m№ 03[0m  deadline_change   [38;5;140mawaiting review[0m
+[38;5;67m│[0m      “Quick heads up, the problem set essay is now due Monday, not Friday, since the printer in[0m
+[38;5;67m│[0m      the lab is down.”[0m
+[38;5;67m│[0m      [38;5;242mdecided by the keyword rules (bedrock_disabled)[0m[38;5;242m, changes_a_previously_stated_fact[0m
+[38;5;67m│[0m [38;5;67m№ 04[0m  relayed_answer   [38;5;140mawaiting review[0m
+[38;5;67m│[0m      “To answer this question properly you need to integrate the rate law first.”[0m
+[38;5;67m│[0m      [38;5;242mdecided by the keyword rules (bedrock_disabled)[0m[38;5;242m, answers_a_question_asked_from_the_floor[0m
+[38;5;67m│[0m [38;5;67m№ 05[0m  exam_signal   [38;5;140mawaiting review[0m
+[38;5;67m│[0m      “This will be on the exam, so make sure you understand the difference between zero order and[0m
+[38;5;67m│[0m      first order kinetics.”[0m
+[38;5;67m│[0m      [38;5;242mdecided by the keyword rules (bedrock_disabled)[0m[38;5;242m, flags_material_as_assessed[0m
+[38;5;67m│[0m      [38;5;131m·[0m [38;5;242mnot an announcement, no_actionable_change[0m
+[38;5;67m│[0m      [38;5;131m·[0m [38;5;242mnot an announcement, no_actionable_change[0m
+[38;5;67m│[0m      [38;5;131m·[0m [38;5;242mnot an announcement, no_actionable_change[0m
+[38;5;67m│[0m      [38;5;131m·[0m [38;5;242mnot an expected speaker, rule 3, no side conversations[0m
+[38;5;67m│[0m      [38;5;131m·[0m [38;5;242mnot an expected speaker, rule 3, no side conversations[0m
+[38;5;67m│[0m      [38;5;131m·[0m [38;5;242mnot an announcement, no_actionable_change[0m
+[38;5;67m│[0m [38;5;67m№ 06[0m  room_change   [38;5;140mawaiting review[0m
+[38;5;67m│[0m      “One more thing before you go, we're moving to room 214 for the rest of the week because of[0m
+[38;5;67m│[0m      a scheduling conflict here.”[0m
+[38;5;67m│[0m      [38;5;242mdecided by the keyword rules (bedrock_disabled)[0m[38;5;242m, relocates_the_class[0m
+[38;5;67m│[0m [38;5;67m№ 07[0m  room_change   [38;5;140mawaiting review[0m
+[38;5;67m│[0m      “We are moving to room temperature for the next part of the demonstration, so the rate[0m
+[38;5;67m│[0m      constant drops.”[0m
+[38;5;67m│[0m      [38;5;242mdecided by the keyword rules (bedrock_disabled)[0m[38;5;242m, relocates_the_class[0m
+[38;5;67m│[0m [38;5;67m№ 08[0m  contact_instruction   [38;5;140mawaiting review[0m
+[38;5;67m│[0m      “If you want feedback on your lab report before it's due, email me by Friday and I'll get to[0m
+[38;5;67m│[0m      it over the weekend.”[0m
+[38;5;67m│[0m      [38;5;242mdecided by the keyword rules (bedrock_disabled)[0m[38;5;242m, gives_an_instruction_with_a_deadline[0m
+[38;5;67m│[0m [38;5;67m№ 09[0m  contact_instruction   [38;5;140mawaiting review[0m
+[38;5;67m│[0m      “Students email me by the dozen about this, and the answer is always in chapter four.”[0m
+[38;5;67m│[0m      [38;5;242mdecided by the keyword rules (bedrock_disabled)[0m[38;5;242m, gives_an_instruction_with_a_deadline[0m
+[38;5;67m│[0m      [38;5;131m·[0m [38;5;242mnot an announcement, no_actionable_change[0m
+[38;5;67m│[0m      [38;5;131m·[0m [38;5;242moutside the session window, rule 1, room-scoped[0m
+[38;5;67m│[0m
+[38;5;67m│[0m   21 utterances in. 9 captured, 12 dropped.
+[38;5;67m│[0m   [38;5;242mBedrock decided none of them (bedrock_disabled). All 9 were decided by the keyword rules.[0m
+[38;5;67m│[0m
+[38;5;67m├─ [1mDROPPED, REASON ONLY, NEVER CONTENT[0m[38;5;67m ─────────────────────────────────────────────────────────────[0m
+[38;5;67m│[0m   [38;5;131m8[0m not an announcement
+[38;5;67m│[0m   [38;5;131m3[0m not an expected speaker, rule 3, no side conversations
+[38;5;67m│[0m   [38;5;131m1[0m outside the session window, rule 1, room-scoped
+[38;5;67m│[0m
+[38;5;67m│[0m   [38;5;242mSession closed at 2026-09-22T13:15:00.000Z. Capture is over.[0m
+[38;5;67m│[0m
+[38;5;67m├─ [1mREVIEW QUEUE, WHERE THE STUDENT STAYS IN THE LOOP[0m[38;5;67m ───────────────────────────────────────────────[0m
+[38;5;67m│[0m   [38;5;131mrejected[0m  [38;5;242mdeadline_change, kept as a correction for CHEM-201[0m
+[38;5;67m│[0m     “That assignment I mentioned has not moved, it is still where the syllabus says.”[0m
+[38;5;67m│[0m   [38;5;108mconfirmed[0m [38;5;242mrelayed_answer[0m
+[38;5;67m│[0m   [38;5;108mconfirmed[0m [38;5;242mdeadline_change[0m
+[38;5;67m│[0m   [38;5;131mrejected[0m  [38;5;242mrelayed_answer, kept as a correction for CHEM-201[0m
+[38;5;67m│[0m     “To answer this question properly you need to integrate the rate law first.”[0m
+[38;5;67m│[0m   [38;5;108mconfirmed[0m [38;5;242mexam_signal[0m
+[38;5;67m│[0m   [38;5;108mconfirmed[0m [38;5;242mroom_change[0m
+[38;5;67m│[0m   [38;5;131mrejected[0m  [38;5;242mroom_change, kept as a correction for CHEM-201[0m
+[38;5;67m│[0m     “We are moving to room temperature for the next part of the demonstration, so the rate[0m
+[38;5;67m│[0m     constant drops.”[0m
+[38;5;67m│[0m   [38;5;108mconfirmed[0m [38;5;242mcontact_instruction[0m
+[38;5;67m│[0m   [38;5;131mrejected[0m  [38;5;242mcontact_instruction, kept as a correction for CHEM-201[0m
+[38;5;67m│[0m     “Students email me by the dozen about this, and the answer is always in chapter four.”[0m
+[38;5;67m│[0m
+[38;5;67m│[0m   5 confirmed, 4 rejected. The student agreed with 56% of what was captured.
+[38;5;67m│[0m
+[38;5;67m├─ [1mBEE TODOS, 5, ONE PER CONFIRMED ITEM[0m[38;5;67m ────────────────────────────────────────────────────────────[0m
+[38;5;67m│[0m   [38;5;108mtodo_1[0m
+[38;5;67m│[0m     Answer given in class: "Good question, so the answer to that one is it's the Thursday after,
+[38;5;67m│[0m       the 14th, not next week."
+[38;5;67m│[0m   [38;5;108mtodo_2[0m
+[38;5;67m│[0m     Deadline changed: "Quick heads up, the problem set essay is now due Monday, not Friday, since
+[38;5;67m│[0m       the printer in the lab is down."
+[38;5;67m│[0m   [38;5;108mtodo_3[0m
+[38;5;67m│[0m     Exam signal: "This will be on the exam, so make sure you understand the difference between
+[38;5;67m│[0m       zero order and first order kinetics."
+[38;5;67m│[0m   [38;5;108mtodo_4[0m
+[38;5;67m│[0m     Room changed: "One more thing before you go, we're moving to room 214 for the rest of the week
+[38;5;67m│[0m       because of a scheduling conflict here."
+[38;5;67m│[0m   [38;5;108mtodo_5[0m
+[38;5;67m│[0m     Action needed: "If you want feedback on your lab report before it's due, email me by Friday
+[38;5;67m│[0m       and I'll get to it over the weekend."
+[38;5;67m│[0m
+[38;5;67m├─ [1mWHAT THE INSTRUCTOR SEES[0m[38;5;67m ────────────────────────────────────────────────────────────────────────[0m
+[38;5;67m│[0m   5 announcement(s) confirmed in Fisher Hall 118 across 1 session(s).
+[38;5;67m│[0m   [38;5;242mrelayed_answer[0m
+[38;5;67m│[0m     “Good question, so the answer to that one is it's the Thursday after, the 14th, not next[0m
+[38;5;67m│[0m     week.”[0m
+[38;5;67m│[0m   [38;5;242mdeadline_change[0m
+[38;5;67m│[0m     “Quick heads up, the problem set essay is now due Monday, not Friday, since the printer in[0m
+[38;5;67m│[0m     the lab is down.”[0m
+[38;5;67m│[0m   [38;5;242mexam_signal[0m
+[38;5;67m│[0m     “This will be on the exam, so make sure you understand the difference between zero order and[0m
+[38;5;67m│[0m     first order kinetics.”[0m
+[38;5;67m│[0m   [38;5;242mroom_change[0m
+[38;5;67m│[0m     “One more thing before you go, we're moving to room 214 for the rest of the week because of a[0m
+[38;5;67m│[0m     scheduling conflict here.”[0m
+[38;5;67m│[0m   [38;5;242mcontact_instruction[0m
+[38;5;67m│[0m     “If you want feedback on your lab report before it's due, email me by Friday and I'll get to[0m
+[38;5;67m│[0m     it over the weekend.”[0m
+[38;5;67m│[0m
+[38;5;67m│[0m   [38;5;242mThere is no field on this view for who was recording. Not hidden: absent.[0m
+[38;5;67m│[0m
+[38;5;67m├─ [1mTHE MODEL AGAINST THE RULES, ON 17 HAND-LABELLED SENTENCES[0m[38;5;67m ──────────────────────────────────────[0m
+[38;5;67m│[0m   rules   10/17 correct
+[38;5;67m│[0m   bedrock 10/17 correct (did not run; both columns are the rules)
+[38;5;67m│[0m
+[38;5;67m│[0m
+[38;5;67m│[0m   [38;5;242m17 hand-written labels show the shape of the difference. They are not an evaluation.[0m
+[38;5;67m│[0m
+[38;5;67m├─ [1mCONSENT RECORD, EXPORTABLE[0m[38;5;67m ──────────────────────────────────────────────────────────────────────[0m
+[38;5;67m│[0m   [38;5;108mchain verified[0m: 20 entries, head [38;5;242m775cee0ef734ddecf48bcb5dd7e3b4e5...[0m
+[38;5;67m│[0m   [38;5;242mexport_consent_record session_fde3d24c writes the page a student can hand over.[0m
+[38;5;67m│[0m
+[38;5;67m│[0m [38;5;242mSession session_fde3d24c closed at 2026-09-22T13:15:00.000Z. No audio was stored. No transcript[0m
+[38;5;67m│[0m   [38;5;242mexists.[0m
+[38;5;67m└───────────────────────────────────────────────────────────────────────────────────────────────────[0m
+
+SAID OUT LOUD, CONSENT RECORD
+==============================================================================
+Session      session_fde3d24c
+Course/room  CHEM-201, Fisher Hall 118
+Policy       policy://institution/deaf-services/cart-classroom-agreement
+Template     deaf-hoh-cart
+Announced    2026-09-22 13:00:00Z
+Heard from   instructor, interpreter
+Retention    180 days, delete after 2027-03-21 13:00:00Z
+
+ANNOUNCEMENT MADE TO THE ROOM, VERBATIM
+  CHEM-201 has CART or interpreter services in the room today, and an
+  announcement capture tool running alongside them under the same classroom
+  agreement. It captures announcements only: deadline changes, room changes,
+  exam signals, instructions to contact or bring something, and answers given
+  aloud to another student's question. It does not record, transcribe or
+  summarise the teaching. It exists because announcements are what a caption
+  feed most often loses.
+
+WHAT WAS KEPT
+  5 announcement(s) confirmed by the student, 4 rejected.
+  No audio. No transcript. No summary. Nothing said by anyone other than the
+  declared speakers above.
+
+CHAIN
+  000  2026-09-22 13:00:00Z  announcement made and recorded
+       3e5a43a5198ae68a1a78d405bc65054804acee3101311b2e3193fb0292831868
+  001  2026-09-22 13:01:11Z  announcement captured, pending review
+       1a71bdabf74dcad3304837681825c9809449384456f189f84595df9b6719ce91
+  002  2026-09-22 13:01:38Z  announcement captured, pending review
+       e8c0c8fac98001367ab916fc771a80938e3aeb1c4f4a75f77942452e51b3245c
+  003  2026-09-22 13:03:30Z  announcement captured, pending review
+       a6fc3918d487f02e8a691d723ef5c539a94a66593c1bc709abf5a5d63bf18358
+  004  2026-09-22 13:04:28Z  announcement captured, pending review
+       220dd8c8c4221549f68e4c0b9471bcf65efa673aff4c951bbef004d909718473
+  005  2026-09-22 13:05:40Z  announcement captured, pending review
+       11f80f51890eb8d4388d381f05f62e85b20a0ea5791088a332e4937453835113
+  006  2026-09-22 13:11:55Z  announcement captured, pending review
+       067d8b3d3d36a1b313d9932a22743f0414a35ca34f24ecccf9a6c8950ced8803
+  007  2026-09-22 13:12:32Z  announcement captured, pending review
+       c0654ca61f22a99938c789d8776ec031db6dd6d72fbf05ee968a4e19af18692d
+  008  2026-09-22 13:13:00Z  announcement captured, pending review
+       4c78864bfec35a91ef30c8192db4102970083b1759911a8be110a729bf775627
+  009  2026-09-22 13:13:32Z  announcement captured, pending review
+       d7b16b7e8b565bf9a73ce7e0fbff1cf6162e54b17923f109bcd9be19ab00d614
+  010  2026-09-22 13:15:00Z  session closed
+       f5e80d4d9b55b028a49de8e67f2ccd23b11581d1f1fa9c61aea0af76c1f7f9ce
+  011  2026-09-22 13:16:00Z  rejected by the student
+       4c7905e6576e9c1466cf52de12c0424584a0ebff2162cb558cfb3154ffd462ce
+  012  2026-09-22 13:16:01Z  confirmed by the student
+       4d0aa2d3194974fd5b022c3c801dda69acfaca8f67ae70e58b57e4b03e718d77
+  013  2026-09-22 13:16:02Z  confirmed by the student
+       1087898835e1400508f85aac01c0b92956314d66f2b7267ff60b3ace2ccbbb92
+  014  2026-09-22 13:16:03Z  rejected by the student
+       1218dc2c6d75765808aa0aef3afc97ffcb2b4051053d50e587cfde25ac190640
+  015  2026-09-22 13:16:04Z  confirmed by the student
+       24fc7067203163d95b46e3b0479312d71069bbf2fbfc78d3d57930e268dffc43
+  016  2026-09-22 13:16:05Z  confirmed by the student
+       eedd76d80b3558e1de812e55920d73115e7fe016d851a4d62248daa09e13b6e2
+  017  2026-09-22 13:16:06Z  rejected by the student
+       e0e3dce32aa7d861fc9c2cef012c9c1be79b8cdbff544c66ed525c0a6fb652f6
+  018  2026-09-22 13:16:07Z  confirmed by the student
+       732800e1b79754ebfb72c26f41a5c899a555e45d0dbedc67a93b98aaea0bec88
+  019  2026-09-22 13:16:08Z  rejected by the student
+       775cee0ef734ddecf48bcb5dd7e3b4e504bd9ebb62d794fb60fb98842ba81a3a
+
+VERIFIED. 20 entries, head 775cee0ef734ddecf48bcb5dd7e3b4e504bd9ebb62d794fb60fb98842ba81a3a.
+
+What this proves: that the announcement above was written before the items
+below it, and that nothing in the list has been edited or removed since.
+What it does not prove: that the announcement was audible, that anyone heard
+it, or that this file was created when it says it was. A deployment wanting
+the stronger claim would co-sign the head hash with the institution's key.

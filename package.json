@@ -1,0 +1,32 @@
+{
+  "name": "said-out-loud",
+  "version": "0.1.0",
+  "description": "MCP server that captures only what was announced in class and never written down, inside a room-scoped, consent-logged teaching session.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  },
+  "bin": {
+    "said-out-loud": "./dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "demo": "tsx src/demo.ts",
+    "review": "tsx src/review-cli.ts",
+    "repl": "tsx src/repl.ts",
+    "start": "tsx src/server.ts",
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.1138.0",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
